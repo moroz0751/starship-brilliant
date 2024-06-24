@@ -62,10 +62,11 @@ $nix_shell\
 $conda\
 $meson\
 $spack\
-$time"""
+$time\
+$character"""
 
 scan_timeout = 10
-add_newline = false
+add_newline = true
 palette = "brilliant"
 
 [palettes.brilliant]
@@ -118,8 +119,10 @@ version_format = "$raw"
 format = "[ $symbol $version ]($style)"
 
 [character]
-success_symbol = '[](blue) '
-error_symbol = '[](red) '
+disabled = false
+success_symbol = "[\n](cyan)"
+error_symbol = "[\n](cyan)"
+format = "[$symbol]($style)"
 
 [cmake]
 style = "fg:#1E9748"
