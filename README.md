@@ -5,6 +5,7 @@ Slim prompt theme for [Starship](https://starship.rs/) designed to work with dar
 ## Install
 
 1. Download the `brilliant.toml` theme file to your local theme directory
+   * Use `brilliant-warp.toml` for Warp terminal due to different spacing handling
 2. Choose one of the following:
    1. Add the path to `brilliant.toml` in your shell profile:
 
